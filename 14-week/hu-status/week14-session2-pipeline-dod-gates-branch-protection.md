@@ -4,7 +4,7 @@
 > **Topic:** Planning your delivery pipeline
 > **Core idea:** *make the Definition of Done automatic and keep the main branch always releasable.*
 
-![Your Pipeline, DoD-as-Gates and Branch Protection](./pipeline-dod-gates-branch-protection.png)
+![Your Pipeline, DoD-as-Gates and Branch Protection](./week14-session2-pipeline-dod-gates-branch-protection.png)
 
 ---
 

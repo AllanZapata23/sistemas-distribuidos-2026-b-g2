@@ -4,7 +4,7 @@
 > **Topic:** Continuous Integration and Continuous Delivery
 > **Core idea:** *ship many small changes safely, automatically.*
 
-![CI/CD — Pipelines and Quality Gates](./cicd-pipelines-quality-gates.png)
+![CI/CD — Pipelines and Quality Gates](./week14-session1-cicd-pipelines-quality-gates.png)
 
 ---
 

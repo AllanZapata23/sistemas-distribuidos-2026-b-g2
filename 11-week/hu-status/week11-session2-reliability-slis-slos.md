@@ -77,7 +77,7 @@ The cycle then repeats, with targets adjusted as the system and user expectation
 
 ## Infographic
 
-See [`reliability-slis-slos-vertical.png`](./reliability-slis-slos-vertical.png) in this folder for a visual summary.
+See [`week11-session2-reliability-slis-slos.png`](./week11-session2-reliability-slis-slos.png) in this folder for a visual summary.
 
 ## OptiView mapping (Week 11)
 

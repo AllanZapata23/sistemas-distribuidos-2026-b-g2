@@ -72,7 +72,7 @@ Both work together: monitoring warns you *that* something is broken, and observa
 
 ## Infographic
 
-See [`observability-logs-metrics-tracing-vertical.png`](./observability-logs-metrics-tracing-vertical.png) in this folder for a visual summary.
+See [`week11-session1-observability-logs-metrics-tracing.png`](./week11-session1-observability-logs-metrics-tracing.png) in this folder for a visual summary.
 
 ## OptiView mapping (Week 11)
 

@@ -16,14 +16,14 @@
 ## 1. User stories worked this week
 | HU ID | Title | Status (todo/doing/done) | Evidence (PR or commit URL) |
 |---|---|---|---|
-| HU-C3-W11-S1 | Study note + infographic: Observability — logs, metrics and traces | done | [note](./week11-session1-observability-logs-metrics-tracing.md) · [visual](./observability-logs-metrics-tracing-vertical.png) |
-| HU-C3-W11-S2 | Study note + infographic: Reliability — SLIs, SLOs, error budgets, alerting | done | [note](./week11-session2-reliability-slis-slos.md) · [visual](./reliability-slis-slos-vertical.png) |
+| HU-C3-W11-S1 | Study note + infographic: Observability — logs, metrics and traces | done | [note](./week11-session1-observability-logs-metrics-tracing.md) · [visual](./week11-session1-observability-logs-metrics-tracing.png) |
+| HU-C3-W11-S2 | Study note + infographic: Reliability — SLIs, SLOs, error budgets, alerting | done | [note](./week11-session2-reliability-slis-slos.md) · [visual](./week11-session2-reliability-slis-slos.png) |
 
 ## 2. My individual contribution
 - Authored a study note and a vertical infographic on **observability** (the three pillars — logs, metrics, traces — correlation IDs, the golden signals, and monitoring vs. observability).
-- Authored a study note and a vertical infographic on **reliability engineering** (SLI / SLO / SLA, error budgets, burn-rate alerting and the reliability loop).
+- Authored a study note and an infographic on **reliability engineering** (SLI / SLO / SLA, error budgets, burn-rate alerting and the reliability loop).
 - Mapped both topics to **OptiView**: the existing `opti-infra` otel-collector / Prometheus / Grafana stack, the shared `X-Correlation-Id` / `traceId`, and candidate user-boundary SLIs (gateway success rate and p95 latency) that would define an error budget after the MVP 2 expo.
-- **No personal product commits this cut.** I did not author new `opti-*` product commits in Corte 3. My Week 11 evidence is the study notes and infographics listed above (individual work), not product code.
+- I did not author `opti-*` product commits this week; my evidence is the study notes and infographics above.
 
 ## 3. Blockers and risks
 - Full OpenTelemetry SDK instrumentation on every `opti-*-api` is still being rolled out service by service, so end-to-end traces are not complete yet.
@@ -40,10 +40,10 @@
 - [ ] Tests added/updated (unit / integration)
 - [ ] DDD / hexagonal boundaries respected (domain has no I/O)
 - [x] No secrets; config via environment variables
-> Note: the commit/PR/test items are left unchecked **on purpose** — I authored no product commits this cut, so they do not apply to this week's study deliverables. Honest status per course rules.
+> Note: the commit/PR/test items are unchecked because I did not author product commits this week, so they do not apply to these study deliverables.
 
 ## 6. Evidence links
 - Study note — Observability: [`week11-session1-observability-logs-metrics-tracing.md`](./week11-session1-observability-logs-metrics-tracing.md)
-- Infographic — Observability: [`observability-logs-metrics-tracing-vertical.png`](./observability-logs-metrics-tracing-vertical.png)
+- Infographic — Observability: [`week11-session1-observability-logs-metrics-tracing.png`](./week11-session1-observability-logs-metrics-tracing.png)
 - Study note — Reliability (SLI/SLO): [`week11-session2-reliability-slis-slos.md`](./week11-session2-reliability-slis-slos.md)
-- Infographic — Reliability (SLI/SLO): [`reliability-slis-slos-vertical.png`](./reliability-slis-slos-vertical.png)
+- Infographic — Reliability (SLI/SLO): [`week11-session2-reliability-slis-slos.png`](./week11-session2-reliability-slis-slos.png)

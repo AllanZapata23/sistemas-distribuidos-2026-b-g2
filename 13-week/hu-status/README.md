@@ -23,7 +23,7 @@
 - Authored a study note and infographic on **securing distributed systems** (AuthN vs. AuthZ, OAuth2 / OIDC / JWT, the API gateway as the central auth point, service-to-service trust with mTLS / short-lived tokens, and the Zero Trust mindset).
 - Authored a study note and infographic on **threat modeling** (the four guiding questions, data-flow diagrams and trust boundaries, the STRIDE categories, risk = likelihood × impact, and turning mitigations into a tracked security backlog).
 - Mapped both to **OptiView**: `opti-auth-api` (RS256 JWTs) with `opti-api-gateway` as the public choke point, `SERVICE_TOKEN` for worker/workflow calls, an initial DFD with trust boundaries (browser → gateway → domain APIs → per-BC databases) and the top security-backlog candidates (shared secret store, gateway rate limiting, never logging Bearer tokens, stricter service tokens).
-- **No personal product commits this cut.** I did not author new `opti-*` product commits in Corte 3. My Week 13 evidence is the study notes and infographics above (individual work), not product code.
+- I did not author `opti-*` product commits this week; my evidence is the study notes and infographics above.
 
 ## 3. Blockers and risks
 - OptiView still lacks a shared secret store for qa/main; secrets are handled via per-environment config today, which is a known security-backlog item.
@@ -40,7 +40,7 @@
 - [ ] Tests added/updated (unit / integration)
 - [ ] DDD / hexagonal boundaries respected (domain has no I/O)
 - [x] No secrets; config via environment variables
-> Note: the commit/PR/test items are left unchecked **on purpose** — I authored no product commits this cut, so they do not apply to this week's study deliverables. Honest status per course rules.
+> Note: the commit/PR/test items are unchecked because I did not author product commits this week, so they do not apply to these study deliverables.
 
 ## 6. Evidence links
 - Study note — Security (AuthN/AuthZ/Zero Trust): [`week13-session1-security-authn-authz-zero-trust.md`](./week13-session1-security-authn-authz-zero-trust.md)
