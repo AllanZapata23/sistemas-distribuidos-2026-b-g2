@@ -1,43 +1,49 @@
-# Certification C3 — <Full name>
-
-> Template of the corte 3 certification. Replace every `<...>` with your data and delete this note. The rules are in the guide attached to the c3-certification activity in Moodle. Text left as `<...>` counts as missing.
+# Certification C3 — Allan Zapata Torres
 
 ## Cover
 
 | Field | Value |
 |---|---|
-| Full name | <Full name exactly as in Moodle> |
-| GitHub user | <github-user> |
-| Group | <G1 or G2> |
-| Team | <Team name> |
+| Full name | Allan Zapata Torres |
+| GitHub user | AllanZapata23 |
+| Group | G2 |
+| Team | The Illusionists |
 | Team -docs repository | <https://github.com/code-corhuila/...-docs> |
-| Course | <Exact course name> |
-| Course link | <Course URL> |
-| Start date | <YYYY-MM-DD> |
-| Completion date | <YYYY-MM-DD> |
+| Course | HCCDP-Solution Architectures Course |
+| Course link | https://e.huawei.com/en/talent/ict-academy/#/ict-courses-detail?courseId=6WtKiPd1S1YelBB0AUbE1vXlPgk |
+| Start date | 2026-11-11 |
+| Completion date | 2026-11-15 |
 
 ## Study log
 
 | Date | Hours | Chapters or labs | Evidence file |
 |---|---|---|---|
-| <YYYY-MM-DD> | <h> | <Chapters or labs> | <evidence/NN-....png> |
-| Total | <sum> | | |
+| 2026-11-11 | 0.5 | Account setup and enrollment | evidence/00-enrollment.png |
+| 2026-11-12 | 3 | Pre-class Guidance and chapters 1 to 6 | evidence/01-chapter-01.png … evidence/06-chapter-06.png |
+| 2026-11-12 | 3 | Chapter 7 | evidence/07-chapter-07.png |
+| 2026-11-13 | 3 | Chapter 8 | evidence/08-chapter-08.png |
+| 2026-11-13 | 3 | Chapter 9 | evidence/09-chapter-09.png |
+| 2026-11-14 | 3 | Chapters 10 and 11 | evidence/10-chapter-10.png, evidence/11-chapter-11.png |
+| 2026-11-14 | 3 | Chapter 12 | evidence/12-chapter-12.png |
+| 2026-11-14 | 3 | Chapters 13 and 14 | evidence/13-chapter-13.png, evidence/14-chapter-14.png |
+| 2026-11-14 | 0.5 | Final exam | evidence/19-final-exam.png |
+| Total | 22 | | |
 
 ## Labs
 
-| Evidence file | Lab name | What I built | What failed first and how I fixed it |
-|---|---|---|---|
-| evidence/15-lab-1.png | <Lab name> | <One sentence> | <One sentence> |
-| evidence/16-lab-2.png | <Lab name> | <One sentence> | <One sentence> |
-| evidence/17-lab-3.png | <Lab name> | <One sentence> | <One sentence> |
-| evidence/18-lab-4.png | <Lab name> | <One sentence> | <One sentence> |
+I did not complete the online labs.
 
 ## Final exam
 
-- Score: <score>
-- Date: <YYYY-MM-DD>
+- Score: 75 points (Passed, 23/30 correct answers)
+- Date: 2026-11-14
 - Evidence: evidence/19-final-exam.png
 
 ## Skills summary
 
-<5 to 7 lines in English, first person, naming at least three concrete design techniques from the course.>
+By completing the HCCDP-Solution Architectures course, I acquired the skills to design reliable, scalable, secure and cost-effective systems on Huawei Cloud.  
+I am able to eliminate single points of failure through redundancy, multi-AZ deployments and Elastic Load Balancing in front of stateless application clusters.  
+I understand how to decouple services using microservices and message queues, and how to improve read performance with caching techniques such as write-through and TTL.  
+I can design disaster recovery strategies by defining RPO/RTO targets and choosing between cold and hot standby, using OBS backups, server images, DRS replication and DNS failover.  
+I can implement infrastructure as code with RFS or Terraform templates and set up observability with AOM, APM and LTS.  
+I can also optimize costs through auto scaling, spot pricing and shutting down idle resources.
