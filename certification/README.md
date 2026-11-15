@@ -8,7 +8,7 @@
 | GitHub user | AllanZapata23 |
 | Group | G2 |
 | Team | The Illusionists |
-| Team -docs repository | <https://github.com/code-corhuila/...-docs> |
+| Team -docs repository | https://github.com/code-corhuila/opti-docs |
 | Course | HCCDP-Solution Architectures Course |
 | Course link | https://e.huawei.com/en/talent/ict-academy/#/ict-courses-detail?courseId=6WtKiPd1S1YelBB0AUbE1vXlPgk |
 | Start date | 2026-11-11 |
